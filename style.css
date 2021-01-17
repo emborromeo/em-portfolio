@@ -60,7 +60,9 @@ li a:hover{
     margin-left:20%;
   
    }
-   
+   #lang{
+       margin-top: 270px;
+   }
 
 }
 @media all and (max-width: 480px){
