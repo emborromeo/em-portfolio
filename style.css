@@ -2,7 +2,7 @@
 
 body {
     height: 100%;
-    background-color:#1c1d1d ;
+    background-color:pink ;
  
   }
 a,h1{
@@ -88,7 +88,9 @@ li a:hover{
     .container .content{
         width: 300px;
     }
-   
+    .social{
+        font-size: 16px;
+    }
     }
 /*Landing*/
 #home{
