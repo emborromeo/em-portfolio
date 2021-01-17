@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    
     <title>EM Borromeo</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="particles-js"> </div> 
-    
-<div id="main">
 
       <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg -md">
@@ -42,33 +44,31 @@
     <div class="container-fluid" id="home">
         <div class="landing-page">
             <div class="main-pic" style="background:transparent">
-                <a href="#" id="id-logo"><img src="images/pic.png" class="img-fluid" onmouseover="this.src='images/pic2.png'"></a>  
+              <a href="#" id="id-logo"><img src="images/pic.png" class="img-fluid" onmouseover="this.src='images/pic2.png'"></a>  
           </div>
         </div>         
     </div>
 
     <!--About-->
-    <div class="container-fluid" id="about">
-        <div class="row">
+    <div class="container-fluid" style="background-color: white;">
+        <div class="row" id="about" >
             <div class="col-sm-6" >
                 <img src="images/about.png" alt="" width="400px" id="title">
                 <div class="container-fluid" id="background">
                    <p><br>
                     I'm currently enrolled as a Computer Engineering student at AMA Computer College to explore my    
-                   passion in the field of Information Technology. Since I learn about programming, I decided to become a self-taught student and pursue a career in software development. <br>
-                </p>
-                <p> 
-                  As an aspiring software developer, learning something new is my hobby. I always make myself motivated, productive and better every day. I also enjoy exploring and challenging myself.<br>
-                </p> 
-                <p>
+                   passion in the field of Information Technology. Since I learn about programming, I decided to become a self-taught student and pursue a career in software development. <br> <br>
+                 
+                  As an aspiring software developer, learning something new is my hobby. I always make myself motivated, productive and better every day. I also enjoy exploring and challenging myself.<br> <br>
+                
                   When I'm not in front of my laptop, I'm probably reading novels, doing yoga, household chores, or selling toys and preloved clothes.
                 </p>
                 <a href="em-borromeo.pdf" target="blank"><button type="button" class="btn btn-outline-primary" id="resume">View Resume</button></a>
                 </div>
                
             </div>
-            <div class="col-sm-6" id="skill">
-              <div class="container-fluid"id="lang">   
+            <div class="col-sm-6" id="skill" >
+              <div class="container-fluid" id="lang">   
                 <div class="row"> 
                   <div class="col-sm xs-4"> 
                     <h6>Languages</h6>
@@ -196,7 +196,7 @@
             
           <p>Please submit your contact information and query about me, and <br> I will respond within 24-48 hours.</p> <br>
           
-          <div class="container" >
+          <div class="container" id="contactme">
               <b> <h4>Get in touch</h4></b> <br>
               <p><img src="images/tel.png" alt="" class="contact-icon"> &nbsp emborromeo02@gmail.com</p>
               <p><img src="images/add.png" alt="" class="contact-icon">&nbsp Aster St. San Rafael Mexico</p>
@@ -256,7 +256,6 @@
 
   </div>
 
-</div>
 
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
