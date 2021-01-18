@@ -3,4 +3,9 @@ function changeImg(x){
 }
 function backImg(x){
     x.src="images/pic.png";
+
 }
+$('.video-btn').on('click', function(e){
+    e.preventDefault();
+    $( '#' + $(this).data('modal-id') ).modal();
+});
