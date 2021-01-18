@@ -129,7 +129,9 @@ li a:hover{
         margin-left: -15px;
         font-size: 18px;
     }
-
+    #git{
+        width: 350px;
+    }
     }
 /*Landing*/
 #home{
