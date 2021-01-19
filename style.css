@@ -121,7 +121,7 @@ li a:hover{
         margin-top: -55px;
         padding: 0;
         width: 240px;
-        margin-left: 13px;
+        margin-left: 10px;
         }
     
     #proj{
@@ -129,7 +129,7 @@ li a:hover{
        }
     
     div#contact{
-        height: 800px;
+        height: 900px;
     }
     
     div form{
@@ -147,7 +147,8 @@ li a:hover{
         font-size: 18px;
     }
     #git{
-        width: 280px;
+        width: 300px;
+        margin-left: -20px;
     }
    
     }
@@ -235,12 +236,12 @@ li a:hover{
     margin-top: 100px;;
 }
 .tools{
-    margin: 10px;;
+    margin: 8px;
 }
 .content {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     margin: auto;
     overflow: hidden;
   }
