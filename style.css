@@ -168,7 +168,7 @@ li a:hover{
 /*ABOUT*/
 #about{
     width: 80%;
-    height: 1000px;
+    height: 900px;
    
     background-color: white;
 }
@@ -228,7 +228,7 @@ li a:hover{
 
 #projects{
     width: 80%;
-    height: 1000px;
+    height: 900px;
     background-color:#1c1d1d ;
     
 }
@@ -309,6 +309,14 @@ li a:hover{
     top: 80%;
   }
   
+  /*BLOG*/
+  #blog{
+    width: 80%;
+    height: 1080px;
+  }
+  #blogs{
+      margin-top: -30px;
+  }
 /*CONTACT*/
 
 #contact{
