@@ -70,6 +70,9 @@ li a:hover{
 
 }
 @media all and (max-width: 480px){
+    #scroll-lbl{
+        display: none;
+    }
     #home{
         height:700px ;
     }

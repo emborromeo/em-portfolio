@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="particles-js"> </div> 
@@ -44,7 +45,7 @@
     <div class="container-fluid" id="home">
         <div class="landing-page">
             <div class="main-pic" style="background:transparent">
-              <a href="#" ><img src="images/pic.png" class="img-fluid" id="id-logo" onmouseover="changeImg(this)" onmouseout="backImg(this)"></a>  
+             <img src="images/pic2.png" class="img-fluid" id="id-logo">
           </div>
         
             
@@ -53,11 +54,16 @@
 
     <!--About-->
     <div class="container-fluid" style="background-color: white;">
-        <div class="row" id="about">
+        <div class="row" id="about" >
             <div class="col-sm-6" >
                 <img src="images/about.png" alt="" width="400px" id="title">
-                <div class="container-fluid" id="background">
-                   <p><br> <br>
+
+                <div class="container-fluid" id="background" data-aos="fade-right" 
+                data-aos-delay="1"
+                data-aos-duration="500"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center">
+                   <p style="text-align: justify;"><br> <br>
                     I'm currently enrolled as a Computer Engineering student at AMA Computer College to explore my    
                    passion in the field of Information Technology. Since I learn about programming, I decided to pursue a career in software development. <br> <br>
                  
@@ -65,11 +71,15 @@
                 
                   When I'm not in front of my laptop, I'm probably reading novels, doing yoga, household chores, or selling toys and preloved clothes.
                 </p>
-                <a href="em-borromeso.pdf" target="blank"><button type="button" class="btn btn-outline-primary" id="resume">View Resume</button></a>
+                <a href="em-borromeo.pdf" target="blank"><button type="button" class="btn btn-outline-primary" id="resume">View Resume</button></a>
                 </div>
                
             </div>
-            <div class="col-sm-6" id="lang">
+            <div class="col-sm-6" id="lang" data-aos="fade-left" 
+            data-aos-delay="1"
+            data-aos-duration="500"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center">
               <div class="container-fluid" >   
                 <div class="row"> 
                   <div class="col-sm xs-4"> 
@@ -106,36 +116,24 @@
         </div>
     </div>
   
-<!-- Modal -->
-<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Basic Modal </h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h3>Modal Body</h3>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
     <!--Projects-->
     <div class="container-fluid" id="projects">          
       <img src="images/projects.png" alt="" width="400px" id="title">
       <center>       
-        <img src="https://ghchart.rshah.org/409ba5/Rucha1499" alt="emborromeo's Blue Github Chart" id="git" />
+        <img src="https://ghchart.rshah.org/409ba5/Rucha1499" alt="emborromeo's Blue Github Chart" id="git" 
+        data-aos="fade-down" 
+                data-aos-delay="1"
+                data-aos-duration="500"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center">
 
       <div class="row" id="proj">
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-aos="fade-right" 
+        data-aos-delay="1"
+        data-aos-duration="500"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
 
           <div class="container">
             <div class="content">
@@ -145,7 +143,7 @@
                 <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">HP search</h3>
                   <p class="content-text">A simple web page for hp character search powered by PotterApi</p>
-                  <a class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal"><button type="button" class="btn" style="color:white;border:1px solid white" >View</button></a>
+                  <a href=""><button type="button" class="btn" style="color:white;border:1px solid white" >View</button></a>
                 </div>
             
             </div> 
@@ -158,7 +156,11 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4" data-aos="fade-up" 
+        data-aos-delay="1"
+        data-aos-duration="500"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
 
           <div class="container">
             <div class="content">
@@ -168,7 +170,7 @@
                 <div class="content-details fadeIn-bottom">
                   <h3 class="content-title">ELLE</h3>
                   <p class="content-text">An SPA for a cafe & resto business</p>
-                  <a href="https://elle.emborromeo.repl.co/" target="blank"><button type="button" class="btn" style="color:white;border:1px solid white">View</button></a>
+                  <a href="https://ell-cafe.emborromeo.repl.co/" target="blank"><button type="button" class="btn" style="color:white;border:1px solid white">View</button></a>
                 </div>
             
             </div> 
@@ -181,7 +183,12 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4"
+        data-aos="fade-left" 
+                data-aos-delay="1"
+                data-aos-duration="500"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center">
 
           <div class="container">
             <div class="content">
@@ -214,7 +221,13 @@
         <div class="col-sm-6">            
            <img src="images/contact.png" alt="" width="400px" id="title">
 
-          <div class="row" id="intouch">
+          <div class="row" id="intouch" 
+          data-aos="fade-right" 
+                data-aos-delay="1"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"         
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center">
             
           <p>Please submit your contact information and query about me, and <br> I will respond within 24-48 hours.</p> <br>
           
@@ -228,7 +241,12 @@
         </div>
          
 
-        <div class="col-sm-6" id="contact-form">
+        <div class="col-sm-6" id="contact-form" data-aos="fade-left" 
+        data-aos-delay="1"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"         
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center">
           <form class="form-horizontal">
             <div class="form-group" id="form">
 
@@ -253,8 +271,10 @@
       </div>
 
 
-
-      <center> <img src="images/new-logo.png" width="100px" id="footer-logo"></center>
+      
+       <center>
+        <img src="images/new-logo.png" width="100px" id="footer-logo"></center>
+      
       <div class="row">
         <p class="copyright">&#x000A9; EM Borromeo 2021</p>
       </div>
@@ -263,7 +283,7 @@
     <!--Footer-->
   <div class="footer fixed-bottom">     
     <a href="#about">
-        <span style="float: right; transform: rotate(-270deg);margin-bottom: -100px;color: #4db4d7;margin-top:85px;font-size:18px;" > Scroll </span>  
+        <span id="scroll-lbl" style="float: right; transform: rotate(-270deg);margin-bottom: -90px;color: #4db4d7;margin-top:90px;font-size:18px;" > Scroll </span>  
           
          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" fill="currentColor" class="bi bi-arrow-down" id="bounce" viewBox="0 0 16 16" style="color: #4db4d7;">
             <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
@@ -280,7 +300,7 @@
 
   </div>
 
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
