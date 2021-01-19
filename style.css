@@ -48,23 +48,30 @@ li a:hover{
 
 .navbar-toggler-icon:hover{
     background-color: gray;
+} 
+.main-pic{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+       
 }
+
 @media all and (min-width:733px){
     #home{
-        height: 810px;
+        height: 1080px;
     }
     #background{
         margin-left: 60px;
     }
-   .main-pic{
-    margin-left:20%;
-  
-   }
+   
    #lang{
     width: 450px;
     height: 300px;
     margin-left: 60px;
-    margin-top: 310px;
+    margin-top: 30px;
    }
    #submit-btn{
   
@@ -73,15 +80,19 @@ li a:hover{
 
 }
 @media all and (max-width: 480px){
+    #home{
+        height: 700px;
+    }
     #scroll-lbl{
-        display: none;
+        display: none;       
+    }
+    .main-pic{
+        width: 350px;
     }
     #home{
         height:700px ;
     }
-    #landing-page{
-        background-color: aliceblue;
-    }
+    
    .copyright{
        color: white;
    }
@@ -101,16 +112,16 @@ li a:hover{
  
     #lang{
         padding: 0;
-        width:280px;
-        margin-top: -5px;        
-        margin-left: 70px;
+        width:300px;
+        margin-top: 5px;        
+        margin-left: 30px;
 
     }
     #background{
         margin-top: -55px;
         padding: 0;
-        width: 280px;
-        margin-left: 38px;
+        width: 240px;
+        margin-left: 13px;
         }
     
     #proj{
@@ -136,31 +147,26 @@ li a:hover{
         font-size: 18px;
     }
     #git{
-        width: 340px;
+        width: 280px;
     }
+   
     }
 /*Landing*/
-#home{
-    align-items: center;
-    display: flex;
-}
+
 #btn-cv{
 
     margin: auto;
     
 }
   
-#title{
-    margin-left: 70px;
-    margin-top: 50px;
-}
+
 .row{
     margin-top: 50px;
  
 }
 /*ABOUT*/
 #about{
-    width: 100%;
+    width: 80%;
     height: 1000px;
    
     background-color: white;
@@ -170,9 +176,7 @@ li a:hover{
     word-wrap: break-word;
 }
 
-#lang{
-   
-}
+
 .skillbar {
     width: 90%;
     margin-bottom: 30px;
@@ -180,11 +184,10 @@ li a:hover{
 
 .skillbar-bar:before {
     background-color: #4db4d7;
-
     content: "";
     height: 3px;
     position: absolute;
-    width: 80%;
+    width: 70%;
     z-index: -1;
 }
 
@@ -203,7 +206,7 @@ li a:hover{
     display: inline-block;
 }
 
-.skill-bar-percent {
+.skill-bar-percent {    
     float: right;
     display: inline-block;
     color:#4db4d7;
@@ -223,34 +226,20 @@ li a:hover{
 /*PROJECTS*/
 
 #projects{
-    background-size: cover;
-    width: 100%;
-    height: 1100px;
+    width: 80%;
+    height: 1000px;
     background-color:#1c1d1d ;
     
 }
 #proj{
     margin-top: 100px;;
 }
-/* Opacity #2 
-.card-img figure {
-	background: #4db4d7;
-}
-.card-img figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.card-img figure:hover img{
-	opacity: .5;
-}
-*/
 .tools{
     margin: 10px;;
 }
 .content {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     margin: auto;
     overflow: hidden;
@@ -332,7 +321,7 @@ li a:hover{
     margin-left: 100px;
 }
 #contact-form{
-    margin-top: 310px;
+    margin-top: 30px;
 }
 form{
     margin-left: 80px;
@@ -342,7 +331,7 @@ form{
 #submit-btn{
     background-color: #4db4d7;
     color: white;
-    margin-left: 130px;
+    margin-left: 140px;
 }
 /*Footer*/
 
@@ -388,7 +377,7 @@ form{
 }
 .copyright{
     text-align: center;
-    color: white;
+    color: #1c1d1d;
     bottom:0;
   
 }
