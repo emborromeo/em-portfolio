@@ -61,7 +61,10 @@ li a:hover{
   
    }
    #lang{
-       margin-top: 270px;
+    width: 450px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 310px;
    }
    #submit-btn{
   
@@ -99,15 +102,15 @@ li a:hover{
     #lang{
         padding: 0;
         width:300px;
-        margin-top: -43px;        
-        margin-left: 35px;
+        margin-top: -5px;        
+        margin-left: 70px;
 
     }
     #background{
         margin-top: -55px;
         padding: 0;
         width: 280px;
-        margin-left: 45px;
+        margin-left: 55px;
         }
     
     #proj{
@@ -167,10 +170,55 @@ li a:hover{
     word-wrap: break-word;
 }
 
-#skill{
-    background-color: aqua;
-    margin-top: 280px;
+#lang{
+   
+}
+.skillbar {
+    width: 90%;
+    margin-bottom: 30px;
+}
 
+.skillbar-bar:before {
+    background-color: #4db4d7;
+
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 80%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background-color: #4db4d7;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #4db4d7;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color:#4db4d7;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* CENTERING ONLY */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 /*PROJECTS*/
 
@@ -343,41 +391,4 @@ form{
     color: white;
     bottom:0;
   
-}
-
-/***** Modal *****/
- 
-.modal-backdrop.in {
-    filter: alpha(opacity=7);
-    opacity: 0.7;
-}
- 
-.modal-content {
-    background: none;
-    border: 0;
-    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
-    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
-}
- 
-.modal-body {
-    padding: 0 25px 25px 25px;
-}
- 
-.modal-header {
-    padding: 25px 25px 15px 25px;
-    text-align: right;
-}
- 
-.modal-header, .modal-footer {
-    border: 0;
-}
- 
-.modal-header .close {
-    float: none;
-    margin: 0;
-    font-size: 36px;
-    color: #fff;
-    font-weight: 300;
-    text-shadow: none;
-    opacity: 1;
 }
